@@ -66,11 +66,12 @@
 			this.square.TabIndex = 2;
 			this.square.Text = "사각형";
 			this.square.UseVisualStyleBackColor = true;
-			this.square.Click += new System.EventHandler(this.square_Click);
+			this.square.Click += new System.EventHandler(this.ractangle_Click);
 			// 
 			// panel1
 			// 
-			this.panel1.BackColor = System.Drawing.Color.White;
+			this.panel1.BackColor = System.Drawing.Color.Transparent;
+			this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.panel1.Location = new System.Drawing.Point(12, 68);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(640, 457);
